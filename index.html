@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+    <link rel="shortcut icon" type="image/png" href="https://pbs.twimg.com/profile_images/532258005190852608/gMy0AjAy_400x400.png">
+    <title>Labelit Quid</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- javascript link -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <section>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Quid</a>
+          </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Ruggero</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </section>
+
+<div class="container">
+
+    <!-- Row #1 -->
+    <div class = "row">
+      <div class= "col-md-12 text-center" style= "border: 2px solid black">
+          <input type="text" id="inputname" class = "pull-left" name="name" placeholder="Input Name" required="required">
+          <div  class="dropdown pull-left buttons">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Template
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Template #1</a></li>
+              <li><a href="#">Template #2</a></li>
+              <li><a href="#">Template #3</a></li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-info pull-left buttons">Upload Questions</button>
+          <button type="button" class="btn btn-success pull-left buttons">Create New Experiment</button>
+      </div>
+    </div>
+
+    <!-- Row #2 -->
+  	<div class="row">
+      <h2>Live Experiments</h2>
+  	    <div class="col-md-12">
+  	        <div id= "row2" class="row"> <!-- sub-row -->
+  	            <div class="col-md-2 text-center" style= "border: 2px solid black">Name</div> <!-- sub-column -->
+  	            <div class="col-md-2 text-center" style= "border: 2px solid black">Template</div> <!-- sub-column -->
+  	            <div class="col-md-2 text-center" style= "border: 2px solid black">Owner</div> <!-- sub-column -->
+                <div class="col-md-2 text-center" style= "border: 2px solid black">Delete</div>
+                <div class="col-md-2 text-center" style= "border: 2px solid black">Go To URL </div>
+                <div class="col-md-2 text-center" style= "border: 2px solid black">Download Results</div>
+  	        </div>
+
+            <div class = "row row-large" >
+              <div class="col-md-2 text-center large" ><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p></div> <!-- sub-column -->
+              <div class="col-md-2 text-center large" ><p>Cluster Labeling</p></div> <!-- sub-column -->
+              <div class="col-md-2 text-center large" ><p>Owner</p></div> <!-- sub-column -->
+              <div class="col-md-2 text-center large" >
+                <button type="button" class="btn btn-danger buttons">Delete</button>
+              </div>
+              <div class="col-md-2 text-center large">
+                <button type="button" class="btn btn-info buttons">Go To URL</button>
+              </div>
+              <div class="col-md-2 text-center large">
+
+                <button type="button" class="btn btn-success buttons">Download Results</button>
+
+              </div>
+
+
+            </div>
+  	    </div>
+	   </div>
+     <div class="row">
+       <h2>Templates</h2>
+       <div class="col-md-12">
+
+           <div id= "row2" class="row"> <!-- sub-row -->
+               <div class="col-md-2 text-center" style= "border: 2px solid black">Name</div> <!-- sub-column -->
+               <div class="col-md-2 text-center" style= "border: 2px solid black">Template</div> <!-- sub-column -->
+               <div class="col-md-2 text-center" style= "border: 2px solid black">Owner</div> <!-- sub-column -->
+           </div>
+
+           <div class ="row row-small" style= "border: 2px solid black" >
+             <div class="col-md-2 text-center large"  ><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p><p>Cluster Labeling v1</p></div> <!-- sub-column -->
+             <div class="col-md-2 text-center large" ><p>Cluster Labeling</p></div>
+
+           </div>
+     </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+  </body>
+</html>
